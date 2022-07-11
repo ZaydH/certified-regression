@@ -1,0 +1,16 @@
+---
+  dataset: "weather"
+  is_classification: False
+  bound_dist: [3]
+  is_bound_percent: False
+  # Ensemble parameters
+  alt_type: "ridge"
+  n_disjoint_models: 1
+  spread_degree: 5
+  mixup_copies: 0
+  # Submodel params
+  model_params:
+    alpha: 3.16E-3
+    max_iter: 1E7
+    solver: "lsqr"
+    tol: 1e-08

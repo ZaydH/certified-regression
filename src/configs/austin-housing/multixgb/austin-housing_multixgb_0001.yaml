@@ -1,0 +1,17 @@
+---
+  dataset: "austin_housing"
+  bound_dist: [15]
+  is_bound_percent: True
+  # Ensemble parameters
+  alt_type: "xgb"
+  n_disjoint_models: 1
+  spread_degree: 13
+  mixup_copies: 5
+  # Submodel params
+  model_params:
+    n_estimators: 500
+    max_depth: 4
+    eval_metric: mae
+    lambda: 1E+2
+    gamma: 1E-2
+    eta: 0.3

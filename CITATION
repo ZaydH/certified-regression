@@ -1,0 +1,10 @@
+@misc{Hammoudeh:2022:CertifiedRegression,
+    author = {Hammoudeh, Zayd and
+              Lowd, Daniel},
+    title = {Reducing Certified Regression to Certified Classification},
+    journal   = {CoRR},
+    year      = {2022},
+    eprint = {2208.13904},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.LG},
+}

@@ -1,0 +1,18 @@
+---
+  dataset: "life"
+  is_classification: False
+  bound_dist: [3]
+  is_bound_percent: False
+  # Ensemble parameters
+  alt_type: "multixgb"
+  n_disjoint_models: 25
+  spread_degree: 9
+  mixup_copies: 15
+  # Submodel params
+  model_params:
+    n_estimators: 250
+    max_depth: 4
+    eval_metric: rmse
+    lambda: 0E+0
+    gamma: 5E-2
+    eta: 0.3

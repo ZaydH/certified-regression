@@ -1,0 +1,12 @@
+---
+  dataset: "ames_housing"
+  bound_dist: [15]
+  is_bound_percent: True
+  # Ensemble parameters
+  alt_type: "knn"
+  n_disjoint_models: 1
+  spread_degree: 1
+  # Submodel params
+  model_params:
+    n_neighbors: 1301
+    metric: minkowski

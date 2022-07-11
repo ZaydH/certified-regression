@@ -1,0 +1,16 @@
+---
+  dataset: "diamonds"
+  is_classification: False
+  bound_dist: [15]
+  is_bound_percent: True
+  # Ensemble parameters
+  alt_type: "multiridge"
+  n_disjoint_models: 501
+  spread_degree: 9
+  mixup_copies: 0
+  # Ridge regression params
+  model_params:
+    alpha: 1.00E-8
+    max_iter: 1E8
+    solver: "lsqr"
+    tol: 1e-06

@@ -1,0 +1,13 @@
+---
+  dataset: "weather"
+  is_classification: False
+  bound_dist: [3]
+  is_bound_percent: False
+  # Ensemble parameters
+  alt_type: "knn"
+  n_disjoint_models: 1
+  spread_degree: 1
+  # Test logging settings
+  model_params:
+    n_neighbors: 150645
+    metric: minkowski

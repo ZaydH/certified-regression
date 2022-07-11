@@ -1,0 +1,12 @@
+---
+  dataset: "spambase"
+  is_classification: True
+  # Ensemble parameters
+  n_disjoint_models: 1
+  spread_degree: 1
+  # Ensemble parameters
+  alt_type: "knn"
+  # Test logging settings
+  model_params:
+    n_neighbors: 2071
+    metric: minkowski
