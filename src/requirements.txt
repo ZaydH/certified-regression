@@ -1,0 +1,11 @@
+dill==0.3.4
+gdown==4.4.0
+GitPython==3.1.27
+gurobipy==9.5.1
+numpy==1.21.6
+pycm==3.3
+requests==2.26.0
+ruamel.base==1.0.0
+scikit_learn==1.1.1
+torch==1.8.2+cu111
+xgboost==1.6.0
