@@ -1,0 +1,16 @@
+---
+  dataset: "weather"
+  is_classification: False
+  bound_dist: [3]
+  is_bound_percent: False
+  # Ensemble parameters
+  alt_type: "multiridge"
+  n_disjoint_models: 51
+  spread_degree: 5
+  mixup_copies: 0
+  # Submodel params
+  model_params:
+    alpha: 1.00E+3
+    max_iter: 1E6
+    solver: "lsqr"
+    tol: 1e-05

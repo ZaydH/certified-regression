@@ -1,0 +1,14 @@
+---
+  dataset: "spambase"
+  is_classification: True
+  # Ensemble parameters
+  alt_type: "multiridge"
+  n_disjoint_models: 25
+  spread_degree: 17
+  mixup_copies: 0
+  # Submodel params
+  model_params:
+    alpha: 3.16E-3
+    max_iter: 1E6
+    solver: "lsqr"
+    tol: 1e-06

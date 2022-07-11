@@ -1,0 +1,17 @@
+---
+  dataset: "ames_housing"
+  bound_dist: [15]
+  is_bound_percent: True
+  # Ensemble parameters
+  alt_type: "multixgb"
+  n_disjoint_models: 25
+  spread_degree: 17
+  mixup_copies: 5
+  # Submodel params
+  model_params:
+    n_estimators: 500
+    max_depth: 2
+    eval_metric: mae
+    lambda: 1E-3
+    gamma: 5E-3
+    eta: 0.3
