@@ -2,7 +2,7 @@ dill==0.3.4
 gdown==4.4.0
 GitPython==3.1.27
 gurobipy==9.5.1
-numpy==1.21.6
+numpy==1.22.0
 pycm==3.3
 requests==2.26.0
 ruamel.base==1.0.0
