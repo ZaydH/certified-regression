@@ -1,10 +1,12 @@
 # Reducing Certified Regression to Certified Classification
 
+[![docs](https://img.shields.io/badge/paper-SaTML'23-orange)](https://satml.org/)
 [![docs](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ZaydH/certified-regression/blob/main/LICENSE)
 
-This repository contains the source code for reproducing the results in the paper "Reducing Certified Regression to Certified Classification".
+This repository contains the source code for reproducing the results in the paper "Reducing Certified Regression to Certified Classification for General Poisoning Attacks".
 
 * Authors: [Zayd Hammoudeh](https://zaydh.github.io/) and [Daniel Lowd](https://ix.cs.uoregon.edu/~lowd/)
+* Venue: [SaTML'23](https://satml.org/)
 * Link to Paper: [Arxiv](https://arxiv.org/abs/2208.13904)
 
 ## Running the Program
@@ -47,14 +49,12 @@ pip install -r requirements.txt
 ## Citation
 
 ```
-@misc{Hammoudeh:2022:CertifiedRegression,
+@inproceedings{Hammoudeh:2023:CertifiedRegression,
     author = {Hammoudeh, Zayd and
               Lowd, Daniel},
-    title = {Reducing Certified Regression to Certified Classification},
-    journal   = {CoRR},
-    year      = {2022},
-    eprint = {2208.13904},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.LG},
+    title     = {Reducing Certified Regression to Certified Classification for General Poisoning Attacks},
+    booktitle = {Proceedings of the 1st {IEEE} Conference on Secure and Trustworthy Machine Learning},
+    series    = {{SaTML}'23},
+    year      = {2023},
 }
 ```

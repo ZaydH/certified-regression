@@ -1,10 +1,8 @@
-@misc{Hammoudeh:2022:CertifiedRegression,
+@inproceedings{Hammoudeh:2023:CertifiedRegression,
     author = {Hammoudeh, Zayd and
               Lowd, Daniel},
-    title = {Reducing Certified Regression to Certified Classification},
-    journal   = {CoRR},
-    year      = {2022},
-    eprint = {2208.13904},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.LG},
+    title     = {Reducing Certified Regression to Certified Classification for General Poisoning Attacks},
+    booktitle = {Proceedings of the 1st {IEEE} Conference on Secure and Trustworthy Machine Learning},
+    series    = {{SaTML}'23},
+    year      = {2023},
 }
