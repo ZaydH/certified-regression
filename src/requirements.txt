@@ -1,6 +1,6 @@
 dill==0.3.4
 gdown==4.4.0
-GitPython==3.1.27
+GitPython==3.1.32
 gurobipy==9.5.1
 numpy==1.21.6
 pycm==3.3
